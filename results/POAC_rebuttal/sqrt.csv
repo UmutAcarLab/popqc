@@ -1,5 +1,61 @@
 config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
-"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", ",111956,0,64945,0,40,12.064691,11.062752,366
-"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", ",258725,0,149932,0,30,11.5158,10.458275,821
-"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", ",585234,0,339365,0,40,23.286808,21.495928,1918
-"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", ",1306507,0,756618,0,44,42.894386,39.94277,4369
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 100, ",111956,0,73189,0,43,2.1281667,1.0342214,4542
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 200, ",111956,0,65751,0,51,3.2834437,2.0410817,2484
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 300, ",111956,0,65132,0,40,3.728868,2.6838145,1382
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 400, ",111956,0,65063,0,37,4.3522344,3.4496453,986
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 500, ",111956,0,65021,0,35,5.086003,4.2383776,754
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 600, ",111956,0,64969,0,38,6.6470857,5.7138515,661
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 700, ",111956,0,64949,0,36,7.390115,6.599199,542
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 800, ",111956,0,64949,0,31,7.2749014,6.646558,446
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 900, ",111956,0,64917,0,43,11.251999,10.354935,427
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 1000, ",111956,0,64945,0,40,11.925371,10.96881,366
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 1200, ",111956,0,64943,0,41,14.914733,14.052135,324
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 1400, ",111956,0,64887,0,34,14.575618,13.839045,256
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 1600, ",111956,0,64839,0,35,17.486637,16.631823,230
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 1800, ",111956,0,64813,0,35,20.081705,19.190315,211
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42.qasm"", omega: 2000, ",111956,0,64845,0,26,16.712416,16.02998,176
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 100, ",258725,0,173548,0,42,3.4450939,1.7321608,9764
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 200, ",258725,0,155258,0,55,5.3648133,3.3132813,5782
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 300, ",258725,0,150596,0,45,6.0835385,4.42499,3369
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 400, ",258725,0,150558,0,37,6.675757,5.34949,2219
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 500, ",258725,0,150232,0,41,8.81629,7.3919353,1764
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 600, ",258725,0,150058,0,39,9.21929,7.884962,1444
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 700, ",258725,0,150070,0,42,10.879837,9.618343,1224
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 800, ",258725,0,150008,0,38,11.099019,9.795349,1094
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 900, ",258725,0,149974,0,36,12.103022,10.952042,942
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 1000, ",258725,0,149932,0,30,11.2970705,10.243718,821
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 1200, ",258725,0,149922,0,33,15.000844,13.786266,696
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 1400, ",258725,0,149992,0,39,20.530499,19.315731,611
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 1600, ",258725,0,149835,0,47,27.972462,26.770626,528
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 1800, ",258725,0,149754,0,33,23.349142,22.175682,464
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48.qasm"", omega: 2000, ",258725,0,149764,0,45,35.069275,33.664425,444
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 100, ",585234,0,399737,0,47,6.0805273,3.3377185,21015
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 200, ",585234,0,358281,0,55,9.292132,5.985173,12987
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 300, ",585234,0,341423,0,51,11.362737,8.490207,8129
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 400, ",585234,0,340356,0,48,12.604585,10.451397,5396
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 500, ",585234,0,339909,0,42,13.921976,11.947421,4055
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 600, ",585234,0,339603,0,40,16.069117,14.110893,3326
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 700, ",585234,0,339525,0,46,19.118963,17.158463,2845
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 800, ",585234,0,339373,0,37,18.631538,16.807087,2450
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 900, ",585234,0,339139,0,44,22.496502,20.789684,2171
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 1000, ",585234,0,339365,0,40,23.286776,21.642004,1918
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 1200, ",585234,0,338681,0,42,27.915213,26.20669,1620
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 1400, ",585234,0,338705,0,33,23.408573,21.860949,1335
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 1600, ",585234,0,339003,0,41,31.212618,29.539526,1204
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 1800, ",585234,0,338639,0,40,34.827087,33.01566,1060
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54.qasm"", omega: 2000, ",585234,0,338649,0,36,34.95965,33.50801,939
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 100, ",1306507,0,907954,0,43,11.149636,7.2388277,43958
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 200, ",1306507,0,811735,0,56,17.715496,12.335572,29143
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 300, ",1306507,0,766383,0,58,23.408867,18.699131,19154
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 400, ",1306507,0,759861,0,50,25.318245,21.79721,12505
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 500, ",1306507,0,759644,0,46,27.891438,24.892315,9248
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 600, ",1306507,0,758224,0,43,30.855644,27.840471,7522
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 700, ",1306507,0,757622,0,42,34.281376,31.302034,6303
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 800, ",1306507,0,757222,0,46,37.51059,34.55927,5496
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 900, ",1306507,0,757169,0,42,39.60793,36.896175,4830
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 1000, ",1306507,0,756618,0,44,42.14628,39.356487,4369
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 1200, ",1306507,0,756798,0,40,45.015877,42.3046,3559
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 1400, ",1306507,0,756544,0,46,53.829037,50.875824,3098
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 1600, ",1306507,0,755202,0,40,51.63758,49.165813,2593
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 1800, ",1306507,0,756248,0,43,59.12428,56.470722,2356
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60.qasm"", omega: 2000, ",1306507,0,755764,0,42,64.02673,61.447166,2126

@@ -1,8 +1,0 @@
-config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,time
-"circuit_path: ""benchmarks/nwqbench/medium/boolean_satisfaction_n28.qasm.transpiled"", ",75638,51581,47082,25532,662.166
-"circuit_path: ""benchmarks/nwqbench/medium/grover_search_n23.qasm.transpiled"", ",13321,10440,9057,4306,439.16074
-"circuit_path: ""benchmarks/nwqbench/medium/multiplier_n60.qasm.transpiled"", ",10817,4305,10022,2737,277.6108
-"circuit_path: ""benchmarks/nwqbench/medium/square_root_n24.qasm.transpiled"", ",6149,3338,5653,2510,136.39369
-"circuit_path: ""benchmarks/nwqbench/medium/statevector_n5.qasm.transpiled"", ",32147,28036,11628,7690,172.60193
-"circuit_path: ""benchmarks/nwqbench/medium/vqc_n18.qasm.transpiled"", ",1555,170,1466,159,31.020617
-"circuit_path: ""benchmarks/nwqbench/medium/vqe_n10.qasm.transpiled"", ",387,49,324,43,1.8962312

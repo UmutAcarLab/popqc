@@ -5,7 +5,7 @@ circuit_path = [
     "${BENCHMARK_DIR}/nwq_square_root_n60.qasm",
 ]
 use_soam = [true]
-omega = [1000]
+omega = [100,200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000]
 preprocess_config = ["None"]
 cost = ["Gate"]
 gateset = ["Nam"]

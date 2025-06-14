@@ -174,50 +174,50 @@ impl CircuitLayer {
     //     new_circuit.len()
     // }
 
-    // #[allow(dead_code)]
-    // pub fn left_layout(&self) -> CircuitLayer {
-    //     let mut layer_idx = vec![0; self.num_qubits];
-    //     let mut layers = Vec::<Layer>::new();
-    //     for old_layer in &self.layers {
-    //         for gate in old_layer.gates.iter().cloned() {
-    //             let qubits = gate.qubits();
-    //             let max_layer_idx = qubits.iter().map(|qubit| layer_idx[*qubit]).max().unwrap();
-    //             if max_layer_idx >= layers.len() {
-    //                 layers.push(Layer { gates: Vec::new() });
-    //             }
-    //             for qubit in qubits {
-    //                 layer_idx[qubit] = max_layer_idx + 1;
-    //             }
-    //             layers[max_layer_idx].gates.push(gate);
-    //         }
-    //     }
-    //     CircuitLayer {
-    //         num_qubits: self.num_qubits,
-    //         layers,
-    //     }
-    // }
-    // #[allow(dead_code)]
-    // pub fn right_layout(&self) -> CircuitLayer {
-    //     let mut layer_idx = vec![0; self.num_qubits];
-    //     let mut layers = Vec::<Layer>::new();
-    //     for old_layer in self.layers.iter().rev() {
-    //         for gate in old_layer.gates.iter().cloned() {
-    //             let qubits = gate.qubits();
-    //             let max_layer_idx = qubits.iter().map(|qubit| layer_idx[*qubit]).max().unwrap();
-    //             if max_layer_idx >= layers.len() {
-    //                 layers.push(Layer { gates: Vec::new() });
-    //             }
-    //             for qubit in qubits {
-    //                 layer_idx[qubit] = max_layer_idx + 1;
-    //             }
-    //             layers[max_layer_idx].gates.push(gate);
-    //         }
-    //     }
-    //     CircuitLayer {
-    //         num_qubits: self.num_qubits,
-    //         layers: layers.into_iter().rev().collect_vec(),
-    //     }
-    // }
+    pub fn left_layout(&self) -> CircuitLayer {
+        let mut layer_idx = vec![0; self.num_qubits];
+        let mut layers = Vec::<Layer>::new();
+        for old_layer in &self.layers {
+            for gate in old_layer.gates.iter().cloned() {
+                let qubits = gate.qubits();
+                let max_layer_idx = qubits.iter().map(|qubit| layer_idx[*qubit]).max().unwrap();
+                if max_layer_idx >= layers.len() {
+                    layers.push(Layer { gates: Vec::new() });
+                }
+                for qubit in qubits {
+                    layer_idx[qubit] = max_layer_idx + 1;
+                }
+                layers[max_layer_idx].gates.push(gate);
+            }
+        }
+        CircuitLayer {
+            num_qubits: self.num_qubits,
+            layers,
+            layout: self.layout.clone(),
+        }
+    }
+    pub fn right_layout(&self) -> CircuitLayer {
+        let mut layer_idx = vec![0; self.num_qubits];
+        let mut layers = Vec::<Layer>::new();
+        for old_layer in self.layers.iter().rev() {
+            for gate in old_layer.gates.iter().cloned() {
+                let qubits = gate.qubits();
+                let max_layer_idx = qubits.iter().map(|qubit| layer_idx[*qubit]).max().unwrap();
+                if max_layer_idx >= layers.len() {
+                    layers.push(Layer { gates: Vec::new() });
+                }
+                for qubit in qubits {
+                    layer_idx[qubit] = max_layer_idx + 1;
+                }
+                layers[max_layer_idx].gates.push(gate);
+            }
+        }
+        CircuitLayer {
+            num_qubits: self.num_qubits,
+            layers: layers.into_iter().rev().collect(),
+            layout: self.layout.clone(),
+        }
+    }
     pub fn get_gateset(&self) -> Gateset {
         let mut gateset = Gateset::Nam;
         for layer in &self.layers {

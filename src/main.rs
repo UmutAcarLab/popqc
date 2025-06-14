@@ -35,7 +35,7 @@ fn single_run(config: &SingleConfig) -> SingleResult {
     //         CircuitSeq::new_from_file(circuit_file.as_path()),
     //         Layout::Dense,
     //     )
-    //     .left_layout()
+    //     .right_layout()
     //     .to_seq(),
     //     layout.clone(),
     // );
