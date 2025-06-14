@@ -1,0 +1,3 @@
+[submodule "resources/quartz"]
+	path = resources/quartz
+	url = https://github.com/quantum-compiler/quartz.git
