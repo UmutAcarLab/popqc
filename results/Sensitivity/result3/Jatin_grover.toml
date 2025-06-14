@@ -1,0 +1,399 @@
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 6
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "2"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 413
+old_gates = 8068
+reduced_gates = 1207
+time = 39.74714279174805
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 6
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "5"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 425
+old_gates = 8068
+reduced_gates = 1232
+time = 77.34523010253906
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 6
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "10"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 427
+old_gates = 8068
+reduced_gates = 1237
+time = 143.81895446777344
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 6
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "20"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 426
+old_gates = 8068
+reduced_gates = 1238
+time = 263.5225830078125
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 10
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "2"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 391
+old_gates = 8068
+reduced_gates = 1193
+time = 32.58709716796875
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 10
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "5"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 402
+old_gates = 8068
+reduced_gates = 1247
+time = 90.36257934570313
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 10
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "10"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 415
+old_gates = 8068
+reduced_gates = 1291
+time = 164.99720764160156
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 10
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "20"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 405
+old_gates = 8068
+reduced_gates = 1333
+time = 336.2395324707031
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 15
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "2"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 413
+old_gates = 8068
+reduced_gates = 1183
+time = 25.27701187133789
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 15
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "5"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 400
+old_gates = 8068
+reduced_gates = 1207
+time = 60.170284271240234
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 15
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "10"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 386
+old_gates = 8068
+reduced_gates = 1249
+time = 125.41299438476563
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 15
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "20"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 370
+old_gates = 8068
+reduced_gates = 1297
+time = 306.448486328125
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "2"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 421
+old_gates = 8068
+reduced_gates = 1179
+time = 23.371410369873047
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "5"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 423
+old_gates = 8068
+reduced_gates = 1187
+time = 50.39622116088867
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "10"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 426
+old_gates = 8068
+reduced_gates = 1200
+time = 95.48531341552734
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "20"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 411
+old_gates = 8068
+reduced_gates = 1222
+time = 236.0126495361328
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 25
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "2"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 424
+old_gates = 8068
+reduced_gates = 1178
+time = 25.62795639038086
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 25
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "5"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 408
+old_gates = 8068
+reduced_gates = 1187
+time = 40.50539779663086
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 25
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "10"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 409
+old_gates = 8068
+reduced_gates = 1197
+time = 95.69215393066406
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_rz_RM/grover_n9.qasm"
+omega = 25
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "20"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+old_depth = 5128
+reduced_depth = 403
+old_gates = 8068
+reduced_gates = 1199
+time = 185.49435424804688

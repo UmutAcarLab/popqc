@@ -1,0 +1,5 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
+"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n10_from_python/shor_7_mod_15_n10_from_python.qasm.preprocessed.new"", ",8476,5971,8556,4863,105,255.90987,251.02591,1124
+"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n12_from_python/shor_7_mod_15_n12_from_python.qasm.preprocessed.new"", ",34084,24539,34391,19725,124,301.139,292.69644,5178
+"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n14_from_python/shor_7_mod_15_n14_from_python.qasm.preprocessed.new"", ",136320,98979,138032,81905,151,399.5222,383.16473,21066
+"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n16_from_python/shor_7_mod_15_n16_from_python.qasm.preprocessed.new"", ",545008,396907,553118,344201,145,790.0235,766.7365,62102

@@ -1,0 +1,767 @@
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n28.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 75818
+optimized_gates = 12351
+n_rounds = 94
+time = 31.735294342041016
+oracle_time = 31.2586727142334
+n_seams_total = 968
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n30.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 138443
+optimized_gates = 22714
+n_rounds = 108
+time = 58.42942428588867
+oracle_time = 57.60298538208008
+n_seams_total = 1737
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n32.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 262724
+optimized_gates = 43541
+n_rounds = 120
+time = 110.45545196533203
+oracle_time = 109.03163146972656
+n_seams_total = 3238
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n34.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 510137
+optimized_gates = 84942
+n_rounds = 130
+time = 215.645263671875
+oracle_time = 213.14715576171875
+n_seams_total = 6303
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n17.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 361603
+optimized_gates = 200001
+n_rounds = 71
+time = 253.1195831298828
+oracle_time = 249.91070556640625
+n_seams_total = 8337
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n21.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 553603
+optimized_gates = 269030
+n_rounds = 90
+time = 497.90887451171875
+oracle_time = 491.9877014160156
+n_seams_total = 14691
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n25.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 946801
+optimized_gates = 446257
+n_rounds = 104
+time = 811.2401123046875
+oracle_time = 802.5167846679688
+n_seams_total = 23431
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n29.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 1298801
+optimized_gates = 599351
+n_rounds = 85
+time = 1035.74267578125
+oracle_time = 1024.97216796875
+n_seams_total = 29387
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/grover_n9_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 8968
+optimized_gates = 6342
+n_rounds = 38
+time = 5.5812530517578125
+oracle_time = 5.481201171875
+n_seams_total = 195
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/grover_n11_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 27136
+optimized_gates = 19098
+n_rounds = 34
+time = 17.28622055053711
+oracle_time = 17.01589012145996
+n_seams_total = 590
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/grover_n13_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 72646
+optimized_gates = 51392
+n_rounds = 35
+time = 48.58896255493164
+oracle_time = 47.988468170166016
+n_seams_total = 1606
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/grover_n15_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 180497
+optimized_gates = 128327
+n_rounds = 39
+time = 119.74381256103516
+oracle_time = 118.4522933959961
+n_seams_total = 3867
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/hhl_n7_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 5796
+optimized_gates = 2384
+n_rounds = 40
+time = 1.8774820566177368
+oracle_time = 1.796832799911499
+n_seams_total = 109
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/hhl_n9_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 68558
+optimized_gates = 27790
+n_rounds = 52
+time = 23.52012062072754
+oracle_time = 23.03740882873535
+n_seams_total = 1021
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/hhl_n11_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 680376
+optimized_gates = 295700
+n_rounds = 55
+time = 250.58624267578125
+oracle_time = 247.06459045410156
+n_seams_total = 10576
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/hhl_n13_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 5954308
+optimized_gates = 2623660
+n_rounds = 63
+time = 2159.20361328125
+oracle_time = 2133.686767578125
+n_seams_total = 90158
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/shor_7_mod_15_n10_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 8476
+optimized_gates = 7554
+n_rounds = 18
+time = 3.3465065956115723
+oracle_time = 3.2999556064605713
+n_seams_total = 135
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/shor_7_mod_15_n12_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 31267
+optimized_gates = 30257
+n_rounds = 17
+time = 11.23576545715332
+oracle_time = 11.150403022766113
+n_seams_total = 459
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/shor_7_mod_15_n14_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 136320
+optimized_gates = 121134
+n_rounds = 25
+time = 53.57241439819336
+oracle_time = 53.162567138671875
+n_seams_total = 2212
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/shor_7_mod_15_n16_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 545008
+optimized_gates = 484259
+n_rounds = 24
+time = 215.99822998046875
+oracle_time = 214.57992553710938
+n_seams_total = 8848
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_square_root_n42.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 111956
+optimized_gates = 65751
+n_rounds = 51
+time = 79.4083251953125
+oracle_time = 78.36324310302734
+n_seams_total = 2484
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_square_root_n48.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 258725
+optimized_gates = 155258
+n_rounds = 55
+time = 191.92372131347656
+oracle_time = 189.8729705810547
+n_seams_total = 5782
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_square_root_n54.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 585234
+optimized_gates = 358281
+n_rounds = 55
+time = 433.0954284667969
+oracle_time = 428.8858642578125
+n_seams_total = 12987
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_square_root_n60.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 1306507
+optimized_gates = 811735
+n_rounds = 56
+time = 975.2687377929688
+oracle_time = 966.2628173828125
+n_seams_total = 29143
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n5.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 32147
+optimized_gates = 6550
+n_rounds = 76
+time = 6.7673797607421875
+oracle_time = 6.501794815063477
+n_seams_total = 427
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n6.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 134632
+optimized_gates = 28162
+n_rounds = 96
+time = 31.02924346923828
+oracle_time = 30.18901252746582
+n_seams_total = 1774
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n7.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 546035
+optimized_gates = 115786
+n_rounds = 86
+time = 115.80904388427734
+oracle_time = 113.33189392089844
+n_seams_total = 6737
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n8.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 2175747
+optimized_gates = 462699
+n_rounds = 96
+time = 451.96240234375
+oracle_time = 443.30535888671875
+n_seams_total = 26719
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/vqe_n18_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 29800
+optimized_gates = 10488
+n_rounds = 53
+time = 5.597858428955078
+oracle_time = 5.343445777893066
+n_seams_total = 452
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/vqe_n22_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 48448
+optimized_gates = 18433
+n_rounds = 56
+time = 9.752042770385742
+oracle_time = 9.371138572692871
+n_seams_total = 747
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/vqe_n26_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 72600
+optimized_gates = 29515
+n_rounds = 64
+time = 14.885114669799805
+oracle_time = 14.335700035095215
+n_seams_total = 1154
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/vqe_n30_from_python.qasm.eval"
+use_soam = true
+omega = 200
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+layout = "One"
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 0
+optimized_depth = 0
+original_gates = 102768
+optimized_gates = 44305
+n_rounds = 51
+time = 21.07305908203125
+oracle_time = 20.407384872436523
+n_seams_total = 1642

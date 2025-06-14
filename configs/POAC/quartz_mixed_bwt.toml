@@ -1,0 +1,24 @@
+circuit_path = [
+       "${BENCHMARK_DIR}/nwq_binary_welded_tree_n17/nwq_binary_welded_tree_n17.qasm.preprocessed.new",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n21/nwq_binary_welded_tree_n21.qasm.preprocessed.new",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n25/nwq_binary_welded_tree_n25.qasm.preprocessed.new",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n29/nwq_binary_welded_tree_n29.qasm.preprocessed.new",]
+use_soam = [true]
+omega = [100]
+preprocess_config = ["None"]
+cost = ["Mixed"]
+gateset = ["Nam"]
+n_threads = [256]
+layout = ["Dense"]
+
+
+[[oracle_name]]
+
+[oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[oracle_name.Quartz.timeout]
+PerSegment = 2

@@ -1,0 +1,8 @@
+config,optimized_gates,optimized_depth,time
+"circuit_path: ""benchmarks/nwqbench/speedtest/1.qasm"", ",899,128,5.6493063
+"circuit_path: ""benchmarks/nwqbench/speedtest/2.qasm"", ",1796,244,11.749367
+"circuit_path: ""benchmarks/nwqbench/speedtest/4.qasm"", ",3586,474,21.728634
+"circuit_path: ""benchmarks/nwqbench/speedtest/8.qasm"", ",7172,935,42.852634
+"circuit_path: ""benchmarks/nwqbench/speedtest/16.qasm"", ",14342,1861,83.74509
+"circuit_path: ""benchmarks/nwqbench/speedtest/32.qasm"", ",28676,3704,159.57196
+"circuit_path: ""benchmarks/nwqbench/speedtest/64.qasm"", ",57345,7395,323.2055

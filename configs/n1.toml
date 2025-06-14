@@ -1,0 +1,18 @@
+circuit_path = [
+    "${BENCHMARK_DIR}/vqe_n18_from_python.qasm",
+    "${BENCHMARK_DIR}/vqe_n22_from_python.qasm",
+    "${BENCHMARK_DIR}/vqe_n26_from_python.qasm",
+    "${BENCHMARK_DIR}/vqe_n30_from_python.qasm",
+]
+use_soam = [true]
+omega = [200]
+preprocess_config = ["None"]
+cost = ["Gate"]
+gateset = ["Nam"]
+n_threads = [10]
+layout = ["One"]
+
+
+[[oracle_name]]
+
+[oracle_name.Voqc]

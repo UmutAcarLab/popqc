@@ -1,0 +1,139 @@
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/1.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 149
+optimized_depth = 128
+original_gates = 1204
+optimized_gates = 899
+time = 5.649306297302246
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/2.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 285
+optimized_depth = 244
+original_gates = 2408
+optimized_gates = 1796
+time = 11.749366760253906
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/4.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 557
+optimized_depth = 474
+original_gates = 4816
+optimized_gates = 3586
+time = 21.728633880615234
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/8.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 1101
+optimized_depth = 935
+original_gates = 9632
+optimized_gates = 7172
+time = 42.85263442993164
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/16.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 2189
+optimized_depth = 1861
+original_gates = 19264
+optimized_gates = 14342
+time = 83.74508666992188
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/32.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 4365
+optimized_depth = 3704
+original_gates = 38528
+optimized_gates = 28676
+time = 159.57196044921875
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/speedtest/64.qasm"
+omega = 20
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 1
+
+[results.result]
+original_depth = 8717
+optimized_depth = 7395
+original_gates = 77056
+optimized_gates = 57345
+time = 323.20550537109375

@@ -1,0 +1,160 @@
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/boolean_satisfaction_n28.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 51581
+optimized_depth = 12483
+original_gates = 75638
+optimized_gates = 16292
+time = 122.01332092285156
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/grover_search_n23.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 10440
+optimized_depth = 4740
+original_gates = 13321
+optimized_gates = 8720
+time = 33.08600616455078
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/multiplier_n60.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 4305
+optimized_depth = 3666
+original_gates = 10817
+optimized_gates = 8509
+time = 31.09334945678711
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/square_root_n24.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 3338
+optimized_depth = 2984
+original_gates = 6149
+optimized_gates = 4958
+time = 14.402907371520996
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/statevector_n5.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 28036
+optimized_depth = 5966
+original_gates = 32147
+optimized_gates = 6727
+time = 29.53316307067871
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/vqc_n18.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 170
+optimized_depth = 154
+original_gates = 1555
+optimized_gates = 1175
+time = 7.22661018371582
+
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/nwqbench/medium/vqe_n10.qasm.transpiled"
+omega = 10
+preprocess_omega = 30
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+gateset = "Nam"
+n_threads = 1
+
+[results.config.timeout]
+PerSegment = 0.0
+
+[results.result]
+original_depth = 49
+optimized_depth = 33
+original_gates = 387
+optimized_gates = 224
+time = 0.7090567946434021

@@ -1,0 +1,13 @@
+/home/cc/quicr/soam/target/debug/deps/libtracing-8108caa2cc316e57.rmeta: /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/lib.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/macros.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/dispatcher.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/field.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/instrument.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/level_filters.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/span.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/stdlib.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/subscriber.rs
+
+/home/cc/quicr/soam/target/debug/deps/tracing-8108caa2cc316e57.d: /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/lib.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/macros.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/dispatcher.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/field.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/instrument.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/level_filters.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/span.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/stdlib.rs /home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/subscriber.rs
+
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/lib.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/macros.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/dispatcher.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/field.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/instrument.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/level_filters.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/span.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/stdlib.rs:
+/home/cc/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.40/src/subscriber.rs:

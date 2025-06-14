@@ -1,0 +1,24 @@
+circuit_path = [
+    "benchmarks/Jatin_rz/gf_mult_n48.qasm",
+    "benchmarks/Jatin_rz/gf_mult_n96.qasm",
+    "benchmarks/Jatin_rz/grover_n9.qasm",
+    "benchmarks/Jatin_rz/grover_n15.qasm",
+    "benchmarks/Jatin_rz/ham15-med.qasm",
+    "benchmarks/Jatin_rz/ham15-high.qasm",
+    "benchmarks/Jatin_rz/hhl_n7.qasm",
+    "benchmarks/Jatin_rz/hhl_n9.qasm",
+    "benchmarks/Jatin_rz/hhl_n11.qasm",
+    "benchmarks/Jatin_rz/qft_n48.qasm",
+    "benchmarks/Jatin_rz/vqe_n16.qasm",
+    "benchmarks/Jatin_rz/vqe_n20.qasm",
+    "benchmarks/Jatin_rz/vqe_n24.qasm",
+
+]
+omega = [6]
+oracle_name = ["Quartz"]
+ecc_path = ["resources/Nam_5_3_complete_ECC_set.json"]
+soam_cost = ["Mixed"]
+quartz_cost = ["Mixed"]
+timeout = ["1"]
+gateset = ["Nam"]
+n_threads = [64]

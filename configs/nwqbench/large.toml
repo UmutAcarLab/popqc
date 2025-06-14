@@ -1,0 +1,16 @@
+circuit_path = [
+# "benchmarks/nwqbench/large/grover_search_n35.qasm.transpiled",
+# "benchmarks/nwqbench/large/grover_search_n29.qasm.transpiled",
+"benchmarks/Jatin_rz/grover_n11_from_python.qasm",
+]
+use_soam = [true]
+omega = [100]
+preprocess_config = ["None"]
+cost = ["Gate"]
+gateset = ["Nam"]
+n_threads = [10]
+
+
+[[oracle_name]]
+
+[oracle_name.Voqc]

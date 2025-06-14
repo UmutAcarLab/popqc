@@ -1,0 +1,17 @@
+circuit_path = [
+"benchmarks/nwqbench/speedtest/1.qasm",
+"benchmarks/nwqbench/speedtest/2.qasm",
+"benchmarks/nwqbench/speedtest/4.qasm",
+"benchmarks/nwqbench/speedtest/8.qasm",
+"benchmarks/nwqbench/speedtest/16.qasm",
+"benchmarks/nwqbench/speedtest/32.qasm",
+"benchmarks/nwqbench/speedtest/64.qasm",
+]
+omega = [20]
+oracle_name = ["Quartz"]
+ecc_path = ["resources/Nam_6_3_complete_ECC_set.json"]
+soam_cost = ["Gate"]
+quartz_cost = ["Gate"]
+timeout = ["0"]
+gateset = ["Nam"]
+n_threads = [1]

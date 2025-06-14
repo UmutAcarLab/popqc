@@ -1,0 +1,5 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42/nwq_square_root_n42.qasm.preprocessed.new"", ",79574,47329,70415,39697,43,108.56661,105.94654,2958
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n48/nwq_square_root_n48.qasm.preprocessed.new"", ",186101,109790,165855,92670,64,170.57158,164.47563,10244
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n54/nwq_square_root_n54.qasm.preprocessed.new"", ",424994,249133,380788,211370,79,328.87198,318.70517,25174
+"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n60/nwq_square_root_n60.qasm.preprocessed.new"", ",895253,537355,779362,444492,71,518.50305,504.17883,48970

@@ -1,0 +1,5 @@
+add X gate to routine 1
+check for hadamard removal, routine 2
+cancel CX, routine 3
+
+For CX and RZ can we make a chain and then shift everything to the left by 1 to get a better cost?

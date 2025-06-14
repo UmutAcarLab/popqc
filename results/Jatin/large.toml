@@ -1,0 +1,19 @@
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Jatin_ccz/gf_mult_n192.qasm"
+omega = 10
+oracle_name = "Quartz"
+ecc_path = "resources/Nam_6_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0"
+gateset = "Nam"
+n_threads = 64
+
+[results.result]
+original_depth = 263
+optimized_depth = 2078
+original_gates = 4539
+optimized_gates = 35607
+time = 150.658203125

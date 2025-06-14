@@ -1,0 +1,5 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
+"circuit_path: ""${BENCHMARK_DIR}/nwq_boolean_satisfaction_n28/nwq_boolean_satisfaction_n28.qasm.preprocessed.new"", ",75670,51579,15622,11116,56,133.6322,130.53488,1294
+"circuit_path: ""${BENCHMARK_DIR}/nwq_boolean_satisfaction_n30/nwq_boolean_satisfaction_n30.qasm.preprocessed.new"", ",138293,95328,27463,20814,64,117.41011,113.57341,2414
+"circuit_path: ""${BENCHMARK_DIR}/nwq_boolean_satisfaction_n32/nwq_boolean_satisfaction_n32.qasm.preprocessed.new"", ",262548,182093,51135,39454,81,154.82169,149.36757,4597
+"circuit_path: ""${BENCHMARK_DIR}/nwq_boolean_satisfaction_n34/nwq_boolean_satisfaction_n34.qasm.preprocessed.new"", ",509907,354863,98668,77579,65,168.1665,161.11185,8939

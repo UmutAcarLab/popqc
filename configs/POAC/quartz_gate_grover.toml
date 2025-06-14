@@ -1,0 +1,25 @@
+circuit_path = [
+    "${BENCHMARK_DIR}/grover_n9_from_python/grover_n9_from_python.qasm.preprocessed.new",
+    "${BENCHMARK_DIR}/grover_n11_from_python/grover_n11_from_python.qasm.preprocessed.new",
+    "${BENCHMARK_DIR}/grover_n13_from_python/grover_n13_from_python.qasm.preprocessed.new",
+    "${BENCHMARK_DIR}/grover_n15_from_python/grover_n15_from_python.qasm.preprocessed.new",
+]
+use_soam = [true]
+omega = [100]
+preprocess_config = ["None"]
+cost = ["Gate"]
+gateset = ["Nam"]
+n_threads = [256]
+layout = ["Dense"]
+
+
+[[oracle_name]]
+
+[oracle_name.Quartz]
+cost = "Gate"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[oracle_name.Quartz.timeout]
+PerSegment = 2

@@ -1,0 +1,18 @@
+circuit_path = [
+    "${BENCHMARK_DIR}/nwq_square_root_n42.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n48.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n54.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n60.qasm",
+]
+use_soam = [true]
+omega = [1000]
+preprocess_config = ["None"]
+cost = ["Gate"]
+gateset = ["Nam"]
+n_threads = [64]
+layout = ["One"]
+
+
+[[oracle_name]]
+
+[oracle_name.Voqc]

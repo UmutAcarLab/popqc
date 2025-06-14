@@ -1,0 +1,123 @@
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n17/nwq_binary_welded_tree_n17.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 158184
+optimized_depth = 115876
+original_gates = 262514
+optimized_gates = 242372
+n_rounds = 204
+time = 599.0767211914063
+oracle_time = 573.0487670898438
+n_seams_total = 39598
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n21/nwq_binary_welded_tree_n21.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 220132
+optimized_depth = 152636
+original_gates = 402022
+optimized_gates = 354113
+n_rounds = 221
+time = 819.6890258789063
+oracle_time = 780.9718627929688
+n_seams_total = 60458
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n25/nwq_binary_welded_tree_n25.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 383475
+optimized_depth = 245603
+original_gates = 687356
+optimized_gates = 586247
+n_rounds = 340
+time = 1304.3182373046875
+oracle_time = 1240.3292236328125
+n_seams_total = 106823
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_binary_welded_tree_n29/nwq_binary_welded_tree_n29.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 511819
+optimized_depth = 349526
+original_gates = 941438
+optimized_gates = 795297
+n_rounds = 246
+time = 1148.445556640625
+oracle_time = 1096.14453125
+n_seams_total = 109821

@@ -1,0 +1,5 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
+"circuit_path: ""${BENCHMARK_DIR}/grover_n9_from_python/grover_n9_from_python.qasm.preprocessed.new"", ",8968,5230,8107,4970,35,86.279,84.95603,321
+"circuit_path: ""${BENCHMARK_DIR}/grover_n11_from_python/grover_n11_from_python.qasm.preprocessed.new"", ",27136,16321,24519,15023,55,139.40288,136.46815,1470
+"circuit_path: ""${BENCHMARK_DIR}/grover_n13_from_python/grover_n13_from_python.qasm.preprocessed.new"", ",72646,44457,65628,41158,61,159.44025,155.2055,4333
+"circuit_path: ""${BENCHMARK_DIR}/grover_n15_from_python/grover_n15_from_python.qasm.preprocessed.new"", ",180497,111623,163044,105459,84,241.45845,234.65125,9711

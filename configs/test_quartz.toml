@@ -1,0 +1,41 @@
+# This config will run experiments on all cartesian product over all parameters, except for n_threads.
+# Make sure there is only one element in n_threads.
+# Then there will be a report on results/test_quartz.toml and results/test_quartz.csv
+
+circuit_path = [
+"benchmarks/testsoam2.qasm",
+]
+use_soam = [false]
+omega = [100]
+preprocess_config = ["None"]
+cost = ["Gate"]
+gateset = ["Nam"]
+n_threads = [100]
+layout = ["Dense"]
+
+[[oracle_name]]
+
+[oracle_name.Quartz]
+cost = "Gate"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 100
+
+[oracle_name.Quartz.timeout]
+PerSegment = 0
+
+[[oracle_name]]
+
+[oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 100
+
+[oracle_name.Quartz.timeout]
+# unit: second
+PerGate = 0.1
+
+[[oracle_name]]
+
+[oracle_name.Voqc]

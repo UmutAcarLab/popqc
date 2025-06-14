@@ -1,0 +1,12 @@
+circuit_path = [
+"benchmarks/Jatin_ccz/gf_mult_n192.qasm",
+# "benchmarks/Jatin_ccz/vqe_n24.qasm"
+]
+omega = [10]
+oracle_name = ["Quartz"]
+ecc_path = ["resources/Nam_6_3_complete_ECC_set.json"]
+soam_cost = ["Gate"]
+quartz_cost = ["Gate"]
+timeout = ["0"]
+gateset = ["Nam"]
+n_threads = [64]

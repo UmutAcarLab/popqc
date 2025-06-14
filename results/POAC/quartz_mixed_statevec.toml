@@ -1,0 +1,123 @@
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n5/nwq_statevector_n5.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 27040
+optimized_depth = 5732
+original_gates = 31000
+optimized_gates = 6793
+n_rounds = 71
+time = 144.4930419921875
+oracle_time = 141.78416442871094
+n_seams_total = 713
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n6/nwq_statevector_n6.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 119887
+optimized_depth = 25984
+original_gates = 129827
+optimized_gates = 28939
+n_rounds = 67
+time = 151.34718322753906
+oracle_time = 146.6175994873047
+n_seams_total = 3023
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n7/nwq_statevector_n7.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 502553
+optimized_depth = 110378
+original_gates = 526541
+optimized_gates = 117778
+n_rounds = 123
+time = 324.498779296875
+oracle_time = 314.8453674316406
+n_seams_total = 12576
+
+[[results]]
+
+[results.config]
+circuit_path = "${BENCHMARK_DIR}/nwq_statevector_n8/nwq_statevector_n8.qasm.preprocessed.new"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Mixed"
+gateset = "Nam"
+n_threads = 256
+layout = "Dense"
+
+[results.config.oracle_name.Quartz]
+cost = "Mixed"
+ecc_path = "resources/Nam_5_3_complete_ECC_set.json"
+gateset = "Nam"
+n_threads = 256
+
+[results.config.oracle_name.Quartz.timeout]
+PerSegment = 2.0
+
+[results.result]
+original_depth = 2117808
+optimized_depth = 454461
+original_gates = 2175747
+optimized_gates = 471508
+n_rounds = 77
+time = 290.4677429199219
+oracle_time = 271.3581848144531
+n_seams_total = 52437

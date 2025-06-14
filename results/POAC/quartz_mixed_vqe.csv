@@ -1,0 +1,5 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
+"circuit_path: ""${BENCHMARK_DIR}/vqe_n12_from_python/vqe_n12_from_python.qasm.preprocessed.new"", ",11022,5567,3089,1754,411,959.4424,946.0273,1252
+"circuit_path: ""${BENCHMARK_DIR}/vqe_n16_from_python/vqe_n16_from_python.qasm.preprocessed.new"", ",22374,11767,6741,3772,510,1043.1434,1022.9351,3220
+"circuit_path: ""${BENCHMARK_DIR}/vqe_n20_from_python/vqe_n20_from_python.qasm.preprocessed.new"", ",38462,21007,12268,6770,655,1391.9045,1358.4949,6601
+"circuit_path: ""${BENCHMARK_DIR}/vqe_n24_from_python/vqe_n24_from_python.qasm.preprocessed.new"", ",59798,33799,20172,11048,741,1506.1178,1465.6614,12054

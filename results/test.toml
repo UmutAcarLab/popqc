@@ -1,0 +1,19 @@
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/test.qasm"
+use_soam = true
+omega = 100
+preprocess_config = "None"
+cost = "Gate"
+gateset = "Nam"
+n_threads = 4
+
+[results.config.oracle_name.Voqc]
+
+[results.result]
+original_depth = 63392
+optimized_depth = 63392
+original_gates = 63392
+optimized_gates = 27755
+time = 2.1795670986175537

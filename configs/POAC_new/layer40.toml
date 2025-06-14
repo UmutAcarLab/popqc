@@ -1,0 +1,46 @@
+circuit_path = [
+    "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n28.qasm",
+    "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n30.qasm",
+    "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n32.qasm",
+    "${BENCHMARK_DIR}/nwq_boolean_satisfaction_n34.qasm",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n17.qasm",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n21.qasm",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n25.qasm",
+    "${BENCHMARK_DIR}/nwq_binary_welded_tree_n29.qasm",
+    "${BENCHMARK_DIR}/grover_n9_from_python.qasm",
+    "${BENCHMARK_DIR}/grover_n11_from_python.qasm",
+    "${BENCHMARK_DIR}/grover_n13_from_python.qasm",
+    "${BENCHMARK_DIR}/grover_n15_from_python.qasm",
+    "${BENCHMARK_DIR}/hhl_n7_from_python.qasm",
+    "${BENCHMARK_DIR}/hhl_n9_from_python.qasm",
+    "${BENCHMARK_DIR}/hhl_n11_from_python.qasm",
+    "${BENCHMARK_DIR}/hhl_n13_from_python.qasm",
+    "${BENCHMARK_DIR}/shor_7_mod_15_n10_from_python.qasm",
+    "${BENCHMARK_DIR}/shor_7_mod_15_n12_from_python.qasm",
+    "${BENCHMARK_DIR}/shor_7_mod_15_n14_from_python.qasm",
+    "${BENCHMARK_DIR}/shor_7_mod_15_n16_from_python.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n42.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n48.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n54.qasm",
+    "${BENCHMARK_DIR}/nwq_square_root_n60.qasm",
+    "${BENCHMARK_DIR}/nwq_statevector_n5.qasm",
+    "${BENCHMARK_DIR}/nwq_statevector_n6.qasm",
+    "${BENCHMARK_DIR}/nwq_statevector_n7.qasm",
+    "${BENCHMARK_DIR}/nwq_statevector_n8.qasm",
+    "${BENCHMARK_DIR}/vqe_n18_from_python.qasm",
+    "${BENCHMARK_DIR}/vqe_n22_from_python.qasm",
+    "${BENCHMARK_DIR}/vqe_n26_from_python.qasm",
+    "${BENCHMARK_DIR}/vqe_n30_from_python.qasm",
+]
+use_soam = [true]
+omega = [40]
+preprocess_config = ["None"]
+cost = ["Gate"]
+gateset = ["Nam"]
+n_threads = [64]
+layout = ["Dense"]
+
+
+[[oracle_name]]
+
+[oracle_name.Voqc]

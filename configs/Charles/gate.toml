@@ -1,0 +1,13 @@
+circuit_path = [
+"benchmarks/Charles_t/length_simplified_orig_ccz1.qasm",
+"benchmarks/Charles_t/length_simplified_orig_ccz2.qasm",
+"benchmarks/Charles_t/length_simplified_orig_ccz3.qasm"
+]
+omega = [6]
+oracle_name = ["Quartz"]
+ecc_path = ["resources/Clifford_T_5_3_complete_ECC_set.json"]
+soam_cost = ["Gate"]
+quartz_cost = ["Gate"]
+timeout = ["1"]
+gateset = ["CliffordT"]
+n_threads = [64]

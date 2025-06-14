@@ -1,0 +1,21 @@
+config,reduced_gates,reduced_depth,time
+"omega: 6, timeout: ""2"", ",12,-4,24.388866
+"omega: 6, timeout: ""5"", ",31,-4,70.67209
+"omega: 6, timeout: ""10"", ",57,-18,126.07152
+"omega: 6, timeout: ""20"", ",74,-22,367.6288
+"omega: 10, timeout: ""2"", ",0,0,11.847059
+"omega: 10, timeout: ""5"", ",2,-1,29.977919
+"omega: 10, timeout: ""10"", ",10,6,85.639404
+"omega: 10, timeout: ""20"", ",28,-4,206.41081
+"omega: 15, timeout: ""2"", ",0,0,12.422139
+"omega: 15, timeout: ""5"", ",0,0,25.421886
+"omega: 15, timeout: ""10"", ",1,2,55.784344
+"omega: 15, timeout: ""20"", ",14,-4,186.48239
+"omega: 20, timeout: ""2"", ",0,0,12.140598
+"omega: 20, timeout: ""5"", ",0,0,25.789375
+"omega: 20, timeout: ""10"", ",2,-1,55.620094
+"omega: 20, timeout: ""20"", ",5,0,187.3482
+"omega: 25, timeout: ""2"", ",0,0,12.607478
+"omega: 25, timeout: ""5"", ",0,0,26.106707
+"omega: 25, timeout: ""10"", ",0,0,45.79598
+"omega: 25, timeout: ""20"", ",0,0,85.412315

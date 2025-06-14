@@ -1,0 +1,19 @@
+[[results]]
+
+[results.config]
+circuit_path = "benchmarks/Charles_t/length_simplified_orig_ccz1.qasm"
+omega = 6
+oracle_name = "Quartz"
+ecc_path = "resources/Clifford_T_5_3_complete_ECC_set.json"
+quartz_cost = "Gate"
+soam_cost = "Gate"
+timeout = "0.01"
+gateset = "CliffordT"
+n_threads = 1
+
+[results.result]
+old_depth = 443
+reduced_depth = 0
+old_gates = 888
+reduced_gates = 0
+time = 3.1623711585998535

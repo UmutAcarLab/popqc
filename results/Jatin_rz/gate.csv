@@ -1,0 +1,5 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,time
+"circuit_path: ""benchmarks/Jatin_rz/qft_n80_from_qiskit.qasm"", ",10690,9104,7150,5572,21.42275
+"circuit_path: ""benchmarks/Jatin_rz/grover_n11_from_python.qasm"", ",27136,16321,24558,16187,47.769497
+"circuit_path: ""benchmarks/Jatin_rz/vqe_n20_from_python.qasm"", ",38462,21007,15035,13031,80.54319
+"circuit_path: ""benchmarks/Jatin_rz/hhl_n9_from_python.qasm"", ",63392,49864,47714,37000,94.6105

@@ -1,0 +1,8 @@
+config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,time
+"circuit_path: ""benchmarks/nwqbench/medium/boolean_satisfaction_n28.qasm.transpiled"", ",75638,51581,16292,12483,122.01332
+"circuit_path: ""benchmarks/nwqbench/medium/grover_search_n23.qasm.transpiled"", ",13321,10440,8720,4740,33.086006
+"circuit_path: ""benchmarks/nwqbench/medium/multiplier_n60.qasm.transpiled"", ",10817,4305,8509,3666,31.09335
+"circuit_path: ""benchmarks/nwqbench/medium/square_root_n24.qasm.transpiled"", ",6149,3338,4958,2984,14.402907
+"circuit_path: ""benchmarks/nwqbench/medium/statevector_n5.qasm.transpiled"", ",32147,28036,6727,5966,29.533163
+"circuit_path: ""benchmarks/nwqbench/medium/vqc_n18.qasm.transpiled"", ",1555,170,1175,154,7.22661
+"circuit_path: ""benchmarks/nwqbench/medium/vqe_n10.qasm.transpiled"", ",387,49,224,33,0.7090568
