@@ -1,0 +1,30 @@
+circuit_path = ["circuit1"]
+use_soam = [true]
+omega = [10]
+preprocess_config = ["None"]
+cost = ["Depth"]
+gateset = ["Nam"]
+n_threads = [1]
+layout = ["Dense"]
+
+[[oracle_name]]
+
+[oracle_name.Quartz]
+cost = "Depth"
+ecc_path = "ecc_path"
+gateset = "Nam"
+n_threads = 1
+
+[oracle_name.Quartz.timeout]
+PerGate = 0.1
+
+[[oracle_name]]
+
+[oracle_name.Quartz]
+cost = "Depth"
+ecc_path = "ecc_path"
+gateset = "Nam"
+n_threads = 1
+
+[oracle_name.Quartz.timeout]
+PerGate = 0.1
