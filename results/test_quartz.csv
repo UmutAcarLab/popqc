@@ -1,4 +1,0 @@
-config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,time
-"oracle_name: Quartz(QuartzConfig { cost: Gate, timeout: PerSegment(0.0), ecc_path: ""resources/Nam_5_3_complete_ECC_set.json"", gateset: Nam, n_threads: 100 }), ",25,13,12,9,0.052706543
-"oracle_name: Quartz(QuartzConfig { cost: Mixed, timeout: PerGate(0.1), ecc_path: ""resources/Nam_5_3_complete_ECC_set.json"", gateset: Nam, n_threads: 100 }), ",25,13,14,9,0.01769725
-"oracle_name: Voqc(VoqcConfig), ",25,13,17,11,0.014961834

@@ -1,5 +1,0 @@
-config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
-"circuit_path: ""${BENCHMARK_DIR}/vqe_n18_from_python.qasm"", ",29800,0,10488,0,53,0.6472585,0.53152186,452
-"circuit_path: ""${BENCHMARK_DIR}/vqe_n22_from_python.qasm"", ",48448,0,18433,0,56,1.0296731,0.8603641,747
-"circuit_path: ""${BENCHMARK_DIR}/vqe_n26_from_python.qasm"", ",72600,0,29515,0,64,1.3786479,1.1178589,1154
-"circuit_path: ""${BENCHMARK_DIR}/vqe_n30_from_python.qasm"", ",102768,0,44305,0,51,1.5930958,1.3920155,1642

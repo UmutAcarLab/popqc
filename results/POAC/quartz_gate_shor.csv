@@ -1,5 +1,0 @@
-config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
-"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n10_from_python/shor_7_mod_15_n10_from_python.qasm.preprocessed.new"", ",8476,5971,8476,5971,4,9.60105,9.544413,60
-"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n12_from_python/shor_7_mod_15_n12_from_python.qasm.preprocessed.new"", ",34084,24539,34084,24539,4,10.211244,10.136649,246
-"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n14_from_python/shor_7_mod_15_n14_from_python.qasm.preprocessed.new"", ",136320,98979,136320,98979,4,11.322787,11.235184,990
-"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n16_from_python/shor_7_mod_15_n16_from_python.qasm.preprocessed.new"", ",545008,396907,545008,396907,4,43.664364,43.540028,3970

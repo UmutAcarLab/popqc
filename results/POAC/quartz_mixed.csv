@@ -1,9 +1,0 @@
-config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
-"circuit_path: ""${BENCHMARK_DIR}/nwq_boolean_satisfaction_n28/nwq_boolean_satisfaction_n28.qasm.preprocessed.new"", ",75670,51579,16391,10201,78,132.39197,128.9857,1342
-"circuit_path: ""${BENCHMARK_DIR}/nwq_binary_welded_tree_n17/nwq_binary_welded_tree_n17.qasm.preprocessed.new"", ",262514,158184,242540,117934,199,718.501,698.9815,39384
-"circuit_path: ""${BENCHMARK_DIR}/grover_n9_from_python/grover_n9_from_python.qasm.preprocessed.new"", ",8968,5230,8107,5056,38,58.33943,57.60552,217
-"circuit_path: ""${BENCHMARK_DIR}/hhl_n7_from_python/hhl_n7_from_python.qasm.preprocessed.new"", ",5319,4165,3830,2520,47,103.20449,101.81863,168
-"circuit_path: ""${BENCHMARK_DIR}/shor_7_mod_15_n10_from_python/shor_7_mod_15_n10_from_python.qasm.preprocessed.new"", ",8476,5971,8561,4993,117,260.8403,256.16354,1110
-"circuit_path: ""${BENCHMARK_DIR}/nwq_square_root_n42/nwq_square_root_n42.qasm.preprocessed.new"", ",79574,47329,70414,39685,60,126.54773,124.03769,3914
-"circuit_path: ""${BENCHMARK_DIR}/nwq_statevector_n5/nwq_statevector_n5.qasm.preprocessed.new"", ",31000,27040,6794,5732,71,125.19105,122.69956,711
-"circuit_path: ""${BENCHMARK_DIR}/vqe_n12_from_python/vqe_n12_from_python.qasm.preprocessed.new"", ",11022,5567,3143,1793,327,724.9281,712.42914,1484

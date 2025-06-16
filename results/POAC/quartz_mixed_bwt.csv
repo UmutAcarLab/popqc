@@ -1,5 +1,0 @@
-config,gates_before_optimization,depth_before_optimization,gates_after_optimization,depth_after_optimization,n_rounds,time,oracle_time,n_seams_total
-"circuit_path: ""${BENCHMARK_DIR}/nwq_binary_welded_tree_n17/nwq_binary_welded_tree_n17.qasm.preprocessed.new"", ",262514,158184,242372,115876,204,599.0767,573.04877,39598
-"circuit_path: ""${BENCHMARK_DIR}/nwq_binary_welded_tree_n21/nwq_binary_welded_tree_n21.qasm.preprocessed.new"", ",402022,220132,354113,152636,221,819.689,780.97186,60458
-"circuit_path: ""${BENCHMARK_DIR}/nwq_binary_welded_tree_n25/nwq_binary_welded_tree_n25.qasm.preprocessed.new"", ",687356,383475,586247,245603,340,1304.3182,1240.3292,106823
-"circuit_path: ""${BENCHMARK_DIR}/nwq_binary_welded_tree_n29/nwq_binary_welded_tree_n29.qasm.preprocessed.new"", ",941438,511819,795297,349526,246,1148.4456,1096.1445,109821

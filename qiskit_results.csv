@@ -1,8 +1,0 @@
-name,gates,time
-nwq_boolean_satisfaction_n34.qasm,103953,51.178614377975464
-nwq_binary_welded_tree_n29.qasm,992040,78.29049968719482
-grover_n15_from_python.qasm,152120,16.09991955757141
-shor_7_mod_15_n16_from_python.qasm,499913,1453.364379644394
-nwq_square_root_n60.qasm,939713,47.03364396095276
-nwq_statevector_n8.qasm,466387,56.59151005744934
-vqe_n30_from_python.qasm,60193,9.034311056137085
