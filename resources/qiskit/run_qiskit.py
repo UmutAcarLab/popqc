@@ -22,7 +22,6 @@ if __name__ == "__main__":
         circuit, optimization_level=3, basis_gates=["rz", "x", "h", "cx"]
     )
 
-    # 合并连续的 Rz 门
     new_data = []
     last_rz = (
         {}
@@ -38,25 +37,20 @@ if __name__ == "__main__":
 
             if q_idx in last_rz:
                 last_idx, last_angle = last_rz[q_idx]
-                # 更新前一个 Rz 门的参数
                 new_data[last_idx].operation.params[0] = last_angle + angle
-                last_rz[q_idx] = (last_idx, last_angle + angle)  # 更新缓存的总角度
-                # 不需要添加新的指令，继续下一个
+                last_rz[q_idx] = (last_idx, last_angle + angle)
                 continue
             else:
-                # 这是这个 qubit 上的第一个 Rz 门（或非连续的）
                 new_data.append(instruction)
                 last_rz[q_idx] = (len(new_data) - 1, angle)
         else:
-            # 如果当前门不是 Rz，或者作用在多个 qubit 上，则清除涉及 qubit 的 last_rz 缓存
             for q in qubits:
                 if q in last_rz:
                     del last_rz[q]
             new_data.append(instruction)
 
-    # 用合并后的指令创建一个新的线路
     merged_circuit = QuantumCircuit(*circuit.qregs, *circuit.cregs, name=circuit.name)
     merged_circuit.data = new_data
-    circuit = merged_circuit  # 替换原线路
+    circuit = merged_circuit
 
     dump(circuit, output_file)
